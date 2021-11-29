@@ -38,7 +38,17 @@ cd acme-master/src
 javac acme/Acme.java
 java acme/Acme
 ```
+o ejecutandolo desde cualquier id de programacion (en este caso el id utilizado para el desarrollo del ejercicio fue Netbeans)
+
 # Estructura
 El proyecto esta estructurado en una arquitectura mvc omitiendo las vistas debido a que la salida del mismo se muestra por consola, cuenta con una capa intermedia entre controladores y modelos denominada servicios, para la lectura del archivo data.txt utilice una la estructura definida por el patron de diseño iterator la cual esta en el paquete Utileria.
 
 ![diagrama de clases](https://user-images.githubusercontent.com/65741905/143788790-b2517a04-6c53-4833-b70a-e7cc8d626d43.jpg)
+
+# Metodologia
+Al ser un ejercicio pequeño y no tan complejo para el desarrollo del mismo me guie con el enfoque de la metodologia de desarrollo en cascada de la siguiente manera:
+
+1. Analisando el ejercicio con el fin de identificar la funcionalidad requerida.
+2. Identificando un pequeño diseño de los modelos necesarios. 
+3. Implementando la logica por medio de programacion.
+4. Ejecutando pequeñas pruebas hasta obtener el resultado deseado.
