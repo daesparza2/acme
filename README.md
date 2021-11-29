@@ -34,8 +34,9 @@ Necesita tener instalado java en su ordenador
 Para poder ejecutar el proyecto ejecute los siguientes comandos desde la terminal 
 
 ```
-cd Acme/dist
-java -jar "Acme.jar"
+cd acme-master/src
+javac acme/Acme.java
+java acme/Acme
 ```
 # Estructura
 El proyecto esta estructurado en una arquitectura mvc omitiendo las vistas debido a que la salida del mismo se muestra por consola, cuenta con una capa intermedia entre controladores y modelos denominada servicios, para la lectura del archivo data.txt utilice una la estructura definida por el patron de diseño iterator la cual esta en el paquete Utileria.
